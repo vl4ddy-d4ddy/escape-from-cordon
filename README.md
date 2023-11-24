@@ -1,1 +1,2 @@
-# tales-from-cordon
+# Escape from Cordon
+Escape from Cordon is a 2D, top-down survival shooter game that takes some inspiration from the game franchise S.T.A.L.K.E.R. In EFC, you play as a Lurker, Lurkers are people who wander the wasteland on their own, have no allies and survive by scavenging the buildings and killing others. You must struggle to survive as you explore the wasteland and find a good place to build your base. Everyone is your enemy, and you can trust noone but yourself.
