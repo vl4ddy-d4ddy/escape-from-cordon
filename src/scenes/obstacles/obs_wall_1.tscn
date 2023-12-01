@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0avve5j3qux0"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_qfb6n"]
+size = Vector3(100, 100, 1)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x8y7m"]
+size = Vector2(100, 100)
+
+[node name="wall_1" type="RigidBody2D"]
+
+[node name="wall_mesh" type="MeshInstance2D" parent="."]
+scale = Vector2(2.32, 1)
+mesh = SubResource("BoxMesh_qfb6n")
+
+[node name="wall_collision" type="CollisionShape2D" parent="."]
+position = Vector2(-3.8147e-06, 0)
+scale = Vector2(2.32, 1)
+shape = SubResource("RectangleShape2D_x8y7m")

@@ -1,0 +1,50 @@
+{
+    "M_WEP_M1911": {
+        "name": "M1911",
+        "description": "The M1911 (also known as Colt 1911 or Colt Government in case of Colt-produced models) is a single-action, recoil-operated, semi-automatic pistol chambered for the .45 ACP cartridge.",
+        "texture": "res://src/sprites/M_WEP_M1911.png",
+
+        "stats": {
+            "fire_rate": 1,
+            "__comment": "adding more later!"
+        },
+
+        "ammo": {
+            "calibre": "C_CAL_45ACP",
+            "damage": 45,
+            "penetration_tier": 2,
+            "recoil": 1,
+            "accuracy": 100
+        },
+
+        "mods": {
+            "grip": {
+                "A_MOD_POLYMER_GRIP": {
+                    "name": "M1911 Polymer Grip",
+                    "description": "A polymer grip to help with the accuracy of the gun ;)",
+                    "buffs": {
+                        "damage": 0,
+                        "penetration_tier": 0,
+                        "recoil": 0,
+                        "accuracy": 5,
+                        "fire_rate": 0
+                    }
+                }
+            },
+            "trigger": {
+                "A_MOD_WILSON_ULTRALIGHT_MATCH_TRIGGER": {
+                    "name": "M1911 Wilson Ultralight Match Trigger",
+                    "description": "A trigger that is designed to help ensure a consistent trigger pull and an ultra-crisp letoff. ",
+                    "buffs": {
+                        "damage": 0,
+                        "penetration_tier": 0,
+                        "recoil": 0,
+                        "accuracy": 0,
+                        "fire_rate": 1
+                    }
+                }
+
+            }
+        }
+    }
+}

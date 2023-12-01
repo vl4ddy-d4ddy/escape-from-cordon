@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cakhqp5pntgfm"]
+
+[ext_resource type="Script" path="res://src/scripts/player_script.gd" id="1_mnbyp"]
+[ext_resource type="Texture2D" uid="uid://clmw0fsdd8oxy" path="res://src/sprites/placeholder.svg" id="2_0tl5g"]
+
+[node name="player_scene" type="CharacterBody2D"]
+motion_mode = 1
+platform_on_leave = 2
+script = ExtResource("1_mnbyp")
+
+[node name="player_sprite" type="Sprite2D" parent="."]
+texture = ExtResource("2_0tl5g")
+
+[node name="player_collision" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(64, -59.6, 64, 59, 59.6, 64, -59, 64, -64, 59.6, -64, -59.6, -59, -63.9, 59, -64)
+
+[node name="player_camera" type="Camera2D" parent="."]
+zoom = Vector2(0.6, 0.6)

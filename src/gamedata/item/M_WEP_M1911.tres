@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Item_Weapon" load_steps=2 format=3 uid="uid://bq7jfe7b8uepc"]
+
+[ext_resource type="Script" path="res://src/scripts/resources/Item_Weapons.gd" id="1_war30"]
+
+[resource]
+script = ExtResource("1_war30")
+id = "m_wep_9x19_pistol"
+name = "9mm Pistol"
+description = "Simple 9mm Pistol"
+texture_path = "res://src/sprites/placeholder.svg"
+stats = {
+"fire_rate": 1
+}
+ammo = {
+"accuracy": 100,
+"caliber": "c_cal_9x19mm",
+"damage": 45,
+"penetration_tier": 2,
+"recoil": 10
+}
+mods = {
+"barrel": {},
+"foregrip": {},
+"frame": {},
+"grip": {},
+"sight": {},
+"trigger": {}
+}
